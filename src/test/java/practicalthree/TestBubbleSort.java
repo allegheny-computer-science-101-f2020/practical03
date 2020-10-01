@@ -13,11 +13,11 @@ import java.util.Random;
 // TODO: Fix all of the defects in this test suite
 
 /**
- * A JUnit test suite for the BubbleSort.
- *
- * @author Janyl Jumadinova
- * @author Add Your Name
- */
+* A JUnit test suite for the BubbleSort.
+*
+* @author Janyl Jumadinova
+* @author Add Your Name
+*/
 
 public class TestBubbleSort {
 

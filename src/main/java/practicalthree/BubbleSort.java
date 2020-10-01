@@ -10,16 +10,16 @@ public class BubbleSort {
   private static int ARRAY_START = 0;
 
   /** Bubble-sort of an array of chars into a nondecreasing order. This
-   * implementation of the sort method makes a complete copy of the input array,
-   * thus ensuring that it does not modify the input parameter.
-   *
-   * <p>Please refer to this site:
-   * https://docs.oracle.com/javase/7/docs/api/java/lang/System.html
-   * for more details about the System.arraycopy() method.
-   *
-   * @param source the source array that will be copied and sorted
-   * @return the copied and sorted array in a nondecreasing order
-   */
+  * implementation of the sort method makes a complete copy of the input array,
+  * thus ensuring that it does not modify the input parameter.
+  *
+  * <p>Please refer to this site:
+  * https://docs.oracle.com/javase/7/docs/api/java/lang/System.html
+  * for more details about the System.arraycopy() method.
+  *
+  * @param source the source array that will be copied and sorted
+  * @return the copied and sorted array in a nondecreasing order
+  */
   public static char[] sort(char[] source) {
     int length = source.length;
     char[] sorted = new char[source.length];
@@ -37,16 +37,16 @@ public class BubbleSort {
   }
 
   /** Bubble-sort of an array of ints into a nondecreasing order. This
-   * implementation of the sort method makes a complete copy of the input array,
-   * thus ensuring that it does not modify the input parameter.
-   *
-   * <p>Please refer to this site:
-   * https://docs.oracle.com/javase/7/docs/api/java/lang/System.html
-   * for more details about the System.arraycopy() method.
-   *
-   * @param source the source array that will be copied and sorted
-   * @return the copied and sorted array in a nondecreasing order
-   */
+  * implementation of the sort method makes a complete copy of the input array,
+  * thus ensuring that it does not modify the input parameter.
+  *
+  * <p>Please refer to this site:
+  * https://docs.oracle.com/javase/7/docs/api/java/lang/System.html
+  * for more details about the System.arraycopy() method.
+  *
+  * @param source the source array that will be copied and sorted
+  * @return the copied and sorted array in a nondecreasing order
+  */
   public static int[] sort(int[] source) {
     int length = source.length;
     int[] sorted = new int[source.length];
