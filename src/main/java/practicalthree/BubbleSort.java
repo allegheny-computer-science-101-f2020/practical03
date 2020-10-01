@@ -4,6 +4,8 @@ package practicalthree;
 
 // TODO: Make sure that you understand how System's array copying method works!
 
+// TODO: Add a Javadoc Comment for class declaration
+
 public class BubbleSort {
 
   /** Define the index at which an array starts. */

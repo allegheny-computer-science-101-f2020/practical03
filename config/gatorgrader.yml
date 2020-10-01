@@ -17,9 +17,10 @@ src/main:
     java:
         practicalthree/BubbleSort.java:
             ConfirmFileExists
-            CountMultipleLineComments --language Java --count 3
+            CountMultipleLineComments --language Java --count 4
             MatchFileFragment --fragment "TODO" --count 0 --exact
             MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+            MatchFileFragment --fragment "@author" --count 1 --exact
             MatchFileFragment --fragment "package practicalthree" --count 1 --exact
             MatchFileFragment --fragment "System.arraycopy" --count 3
             MatchFileFragment --fragment "println(" --count 4
@@ -33,11 +34,12 @@ src/test:
             CountMultipleLineComments --language Java --count 1
             MatchFileFragment --fragment "TODO" --count 0 --exact
             MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+            MatchFileFragment --fragment "@author" --count 2 --exact
             MatchFileFragment --fragment "package practicalthree" --count 1 --exact
             MatchFileFragment --fragment "@Test" --count 12
 
 # --> check that the number of commits in the Git repository is beyond a threshold
-CountCommits --count 1
+CountCommits --count 3
 
 # --> check that the program executes correctly and produces exactly 10 lines of output
 ExecuteCommand --command "gradle build"
